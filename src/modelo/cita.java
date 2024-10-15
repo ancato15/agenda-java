@@ -63,8 +63,8 @@ public class cita {
         try {
             PreparedStatement ps = con.getConnection().prepareStatement(sql);
             ps.setInt(1, idcontacto);
-            ps.setDate(2, (Date) fecha);
-            ps.setDate(3, (Date) hora);
+//            ps.setDate(2, (Date) fecha);
+  //          ps.setDate(3, (Date) hora);
             ps.setString(4, consultorio);
             ps.setString(5, descripcion);
             ps.setInt(6, idusuario);
